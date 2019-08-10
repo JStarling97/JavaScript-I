@@ -89,7 +89,7 @@ for(let i = 0; i<inventory.length; i++){
       carModels.push(inventory[i].car_model);
     }
   }
-
+carModels.sort();
 console.log(carModels);
 
 // ==== Challenge 4 ====
@@ -115,5 +115,5 @@ for(let i = 0; i <inventory.length; i++) {
   }
 }
 
-// console.log(BMWAndAudi);
+console.log(BMWAndAudi);
 
